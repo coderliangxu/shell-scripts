@@ -12,6 +12,7 @@ n=`date +%H`
 if [ $n -eq 00 ] || [ $n -eq 12 ]
 then
 	# find . -type f | xargs -t -I {} sh -c "echo > {}"
+	# find . -type f -exec sh -c "echo 111 > {}" \;
 	#通过for循环，以find命令作为遍历条件，将目标目录下的所有文件进行遍历并做相应操作
 	for i in `find . -type f`
 	do
