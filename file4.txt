@@ -1,0 +1,5 @@
+name score
+liangxu 100
+alvin 99
+harry 98
+sherry 97
